@@ -1,0 +1,63 @@
+.DeerList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.DeerList li {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+}
+
+.DeerList img {
+  display: block;
+  height: 150px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.DeerList h2 {
+  margin-top: 0;
+}
+
+.DeerList p {
+  margin-bottom: 5px;
+}
+
+.DeerList button {
+  margin-top: 10px;
+}
+
+.DeerList form {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.DeerList form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.DeerList form input {
+  width: 100%;
+}
+
+
+
+.deerProfiles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+
+.grid-item {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
